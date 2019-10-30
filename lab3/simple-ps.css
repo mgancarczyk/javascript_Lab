@@ -1,0 +1,19 @@
+body {
+    background: lightgray;
+}
+#canvas {
+    width: 80vw;
+    height: 60vh;
+    margin: 50px auto;
+    background: white;
+}
+.brush {
+    width: 10px;
+    height: 10px;
+    background: pink;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.circle-brush {
+    border-radius: 50%;
+}
